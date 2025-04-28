@@ -1,4 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* shared style */
+.heading{
+font-size: 35px;
+font-weight: bold;
+}
+.section-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.common-color{
+    color: #757575;
+}
+.data-title{
+    color: #757575;
+}
+.section-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -25,7 +46,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0px 200px;
+    padding: 50px 220px 50px 220px;
 }
 nav ul{
     display: flex;
@@ -47,7 +68,199 @@ nav li a{
 .btn-hire{
     font-size: 20px;
     font-weight: bold;
+    border: none;
     color: #FFFFFF;
     padding: 18px 35px;
-
+}
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-position: 22px, bottom right;
+    background-repeat: no-repeat;
+    background-size:contain, 45%;
+    margin-top: -5px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 580px;
+    margin-left: 230px;
+}
+.banner-profile-pic{
+    width: auto;
+    height: 450px;
+}
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+    width: 170px;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    width: 490px;
+}
+.banner-description{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn-download{
+    padding: 18px 17px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 23px;
+}
+.btn-contact{
+    padding: 18px 23px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(253, 110, 10);
+    background-color: #fff8f3;
+    border: 1px solid rgb(253, 110, 10);
+    border-radius: 5px;
+}
+#about-item{
+    max-width: 1140px;
+    margin: 10px auto;
+    
+}
+.data-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    padding: 0 178px;
+}
+.biodata{
+    margin-top: 125px;
+    margin-bottom: 125px;
+    padding-bottom: 125px;
+}
+.biodata>h4{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+    padding-top: 130px;
+}
+.biodata>p{
+    padding: 30px 155px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    text-align: center;
+}
+.data-heading{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.data-value{
+    font-weight: 700;
+    font-size: 20px;
+}
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.experience-description{
+    text-align: center;
+    padding: 30px 160px 50px;
+    font-size: 18px;
+}
+.skills-item{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    width: 267px;
+    /* padding: 20px 50px; */
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+}
+.skill>img{
+    padding: 30px 190px 30px 30px;
+}
+.skill>h5{
+    font-size: 24px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.skill>p{
+    padding: 0 33px 30px 33px;
+    color: #757575;
+    font-size: 16px;
+    width: 200px;
+}
+#resume-summary-item{
+    margin-top: 130px;
+}
+#resume-summary-item>h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 113px;
+    text-align: center;
+}
+.education-part{
+    max-width: 510px;
+}
+.education-part>h5{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.edu-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.education-details{
+    color: #757575;
+}
+.middle-child>h4{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.grand-mother{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 80px;
+}
+.social-media-item{
+    max-width: 550px;
+}
+.social-media-item>a{
+    margin-right: 24px;
+}
+.Contact-item{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* justify-content: center; */
+    justify-content: space-between;
+    padding: 130px 0;
+}
+#section-contact{
+    background-color: #FFF8F3;
+}
+.description{
+    font-size: 16px;
+    color: #474747;
+    margin: 20px 0 30px 0;
+}
+form>input[type="text"], [type="email"]::placeholder{
+    font-size: 16px;
+ padding-left: 30px;
+}
+form>textarea[type=message]::placeholder{
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
