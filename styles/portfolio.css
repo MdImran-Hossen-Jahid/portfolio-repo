@@ -276,4 +276,7 @@ form>textarea[type=message]::placeholder{
     .skills-item{
         flex-direction: column;
     }
+    .skill{
+        width: auto;
+    }
 }
