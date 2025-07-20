@@ -329,4 +329,10 @@ form>textarea[type=message]::placeholder{
   .biodata>h4{
     padding-top: 10px;
   }
+  .banner{
+    flex-direction: column;
+  }
+  .banner-profile-pic{
+    width: 310px;
+  }
 }
