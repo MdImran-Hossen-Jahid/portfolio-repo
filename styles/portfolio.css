@@ -308,8 +308,17 @@ form>textarea[type=message]::placeholder{
     .biodata>p{
         width: 100%;
     }
+    #about-item{
+        max-width: 100%;
+
+    }
+    .biodata>p {
+        padding: 15px 10px;
+    }
   .data-items {
     flex-direction: column;
     align-items: center;
+    padding: 5px;
+    gap: 15px;
   }
 }
