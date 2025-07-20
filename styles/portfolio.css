@@ -329,10 +329,34 @@ form>textarea[type=message]::placeholder{
   .biodata>h4{
     padding-top: 10px;
   }
+  .header{
+    background-image: none;
+  }
   .banner{
     flex-direction: column;
   }
   .banner-profile-pic{
     width: 310px;
+    margin: 40px auto 0;
   }
+  .banner-greetings{
+    font-size: 30px;
+  }
+  .banner-title{
+    font-size: 50px;
+  }
+ nav{
+    padding: 50px 20px;
+ }
+ .nav-title{
+    padding-top: 6px;
+    font-size: 20px;
+ }
+ .btn-hire{
+    padding: 8px 16px;
+ }
+ .banner-content{
+    width: auto;
+    margin-left: 20px;
+ }
 }
