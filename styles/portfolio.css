@@ -115,6 +115,11 @@ nav li a{
     font-size: 20px;
     margin-right: 23px;
 }
+.download-btn-item{
+    margin-left: 470px;
+    margin-bottom: 113px;
+}
+
 .btn-contact{
     padding: 18px 23px;
     font-weight: bold;
@@ -279,5 +284,11 @@ form>textarea[type=message]::placeholder{
     .skill{
         margin: auto;
         border: 2px solid gray;
+    }
+    .grand-mother{
+        flex-direction: column;
+    }
+    .download-btn-item{
+        margin-left: 5px;
     }
 }
