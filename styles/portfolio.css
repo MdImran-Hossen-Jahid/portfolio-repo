@@ -321,4 +321,9 @@ form>textarea[type=message]::placeholder{
     padding: 5px;
     gap: 15px;
   }
+  .biodata{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
 }
