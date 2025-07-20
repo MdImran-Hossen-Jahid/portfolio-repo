@@ -337,7 +337,7 @@ form>textarea[type=message]::placeholder{
   }
   .banner-profile-pic{
     width: 310px;
-    margin: 40px auto 0;
+    margin: 40px auto 0;gi
   }
   .banner-greetings{
     font-size: 30px;
@@ -358,5 +358,14 @@ form>textarea[type=message]::placeholder{
  .banner-content{
     width: auto;
     margin-left: 20px;
+ }
+ .btn-download{
+    margin-right: 4px;
+    padding: 10px 9px;
+    font-size: 16px;
+ }
+ .btn-contact{
+    padding: 10px 12px;
+    font-size: 16px;
  }
 }
