@@ -291,4 +291,8 @@ form>textarea[type=message]::placeholder{
     .download-btn-item{
         margin-left: 5px;
     }
+    .section-width{
+        max-width:fit-content;
+        margin: 0 auto;
+    }
 }
