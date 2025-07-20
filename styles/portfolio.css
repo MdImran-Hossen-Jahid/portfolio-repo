@@ -305,4 +305,11 @@ form>textarea[type=message]::placeholder{
     .Contact-item{
         flex-direction: column-reverse;   
     }
+    .biodata>p{
+        width: 100%;
+    }
+  .data-items {
+    flex-direction: column;
+    align-items: center;
+  }
 }
