@@ -23,6 +23,13 @@ font-weight: bold;
 .text-primary{
     color: #FD6E0A;
 }
+.input-item{
+    height: 64px;
+    width: 90%;
+    border: none;
+    display: block;
+}
+/* shared style end */
 
 /* nav styles*/
 .btn-primary{
@@ -294,5 +301,8 @@ form>textarea[type=message]::placeholder{
     .section-width{
         max-width:fit-content;
         margin: 0 auto;
+    }
+    .Contact-item{
+        flex-direction: column-reverse;   
     }
 }
