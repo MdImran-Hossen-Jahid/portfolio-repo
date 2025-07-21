@@ -276,9 +276,6 @@ form>textarea[type=message]::placeholder{
     padding-left: 30px;
     padding-top: 20px;
 }
-.hide{
-    display: none;
-}
 
 /* Responsive design for mobile device */
 @media screen and (max-width:576px) {
